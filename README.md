@@ -33,8 +33,8 @@ pip install -r requirements.txt
 Create a .env file and add your API keys .
 
 🔥 Usage
-python cuisine.py
-Follow on-screen instructions to generate menus based on cuisine types.
+
+streamlit run cuisine.py
 
 🌐 Planned Deployment
 The project is intended to be deployed on Streamlit Cloud for easy accessibility. Stay tuned for future updates!
