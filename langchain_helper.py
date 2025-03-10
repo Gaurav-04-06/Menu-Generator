@@ -2,10 +2,11 @@ from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate 
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-import secret_key
+from dotenv import load_dotenv
 import os
 
-os.environ['GROQ_API_KEY'] = secret_key.openapi_key
+load_dotenv()
+os.environ['GROQ_API_KEY'] = os.getenv('openapi_key')
 llm = ChatGroq(model_name="llama3-8b-8192" )
 
 
