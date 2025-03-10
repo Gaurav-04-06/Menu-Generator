@@ -1,4 +1,4 @@
-🍽️ Menu Generator
+# 🍽️ Menu Generator
 A LangChain-powered project to generate unique restaurant menus based on cuisine types.
 🌟 Overview
 Menu Generator is a Python-based project that leverages LangChain and LLMs to generate unique restaurant menus based on different cuisine styles. This project integrates AI models to suggest innovative dishes and restaurant names dynamically.
